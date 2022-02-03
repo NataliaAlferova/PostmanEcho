@@ -16,7 +16,7 @@ public class PostmanTest {
         // Предусловия
         given()
                 .baseUri("https://postman-echo.com")
-                .body("10.01.2010")
+                .body("10 Jan 2010")
                 // Выполняемые действия
                 .when()
                 .post("/post")
